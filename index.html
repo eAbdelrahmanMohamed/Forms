@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" id="form">
+        <input required type="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+        <input required type="number" id="zcode" placeholder="ZIP Code" pattern="/^[0-9]{5}$/"><br>
+        <input required minlength="8" id="id1" type="password" name="password" autocomplete="password" placeholder="passsword"><br>
+        <input required minlength="8" id="id" type="password" name="password" autocomplete="password" placeholder="passsword Comfirmation"><br>
+        <input required type="text" placeholder="Country"><br>
+        <button type="submit" onclick="myFunction()">submit</button>
+    </form>
+    <div id="demo"></div>
+</body>
+<script src="./main.js "></script>
+
+</html>

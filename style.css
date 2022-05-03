@@ -1,0 +1,12 @@
+form input,
+button {
+    display: block;
+}
+
+input:valid {
+    box-shadow: greenyellow 1px 0 0 1px;
+}
+
+input:invalid {
+    box-shadow: red 1px 0 0 1px;
+}
